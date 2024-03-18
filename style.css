@@ -32,11 +32,33 @@ ul.buttons li{
 }
 
 
-div.fanimage {
+.fanimage {
     animation: fananimation
      2s ;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+
+
+
 }
 
 @keyframes fananimation {
+    from { transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
     
+}
+
+.stop{
+    animation-play-state: paused;
+    
+}
+
+.one{
+    animation-duration: 0.75s;
+}
+.two{
+    animation-duration: 0.5s;
+}
+.three{
+    animation-duration: 0.3s;
 }
