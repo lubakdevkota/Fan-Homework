@@ -1,0 +1,42 @@
+div.fan img{
+    width: 350px;
+    heright: 350px;
+    object-fit: contain;
+}
+
+div.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.buttons{
+    list-style-type : none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex: 5px;
+}
+
+ul.buttons li{
+    padding: 10px;
+    margin: 10PX;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: rgb(47, 9, 107);
+    color: white;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+
+div.fanimage {
+    animation: fananimation
+     2s ;
+}
+
+@keyframes fananimation {
+    
+}
